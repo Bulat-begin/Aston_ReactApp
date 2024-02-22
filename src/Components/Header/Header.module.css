@@ -1,0 +1,18 @@
+.container {
+    display: block;
+    
+    
+    padding: 50px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .title {
+    margin-left: 10px;
+    font-size: 25px;
+  }
