@@ -1,18 +1,31 @@
-.container {
-    display: block;
-    
-    
-    padding: 50px;
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .logo {
-    width: 40px;
-    cursor: pointer;
-  }
-  
-  .title {
-    margin-left: 10px;
-    font-size: 25px;
-  }
+.header {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.img {
+	width: 130px;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.link {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.link:hover {
+	color: #b3b3b3;
+}
+
+.button {
+	max-height: 30px;
+}
